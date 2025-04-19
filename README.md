@@ -10,7 +10,9 @@ It was made in about a day mostly just to play with my cousins, so expect bugs a
 
 If you just want the code for TAB key function to force a penalty check out the `tab` branch. It's based on [this pull request](https://github.com/Neverball/neverball/pull/99).
 
-Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it yourself idk. I'm probably not going to make a release anytime soon. Tip: If you want to compile for Windows, it's best to use the docker container in [doc/alpha.md](doc/alpha.md). (I tried cross-compiling for windows and it just gave me headaches.)
+Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it yourself idk. I'm probably not going to make a release anytime soon.
+
+Tip: If you want to compile for Windows, it's best to use the docker container in [doc/alpha.md](doc/alpha.md#build-a-windows-32-bit-build). (I tried cross-compiling for windows and it just gave me headaches.)
 
 ## New features
 
