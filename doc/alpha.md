@@ -29,6 +29,13 @@ docker run --rm --volume $(pwd):/neverball --workdir /neverball parasti/neverbal
 docker run --rm --volume $(pwd):/neverball --workdir /neverball parasti/neverball-mingw mingw-list-deps --copy neverball.exe neverputt.exe mapc.exe
 ```
 
+If you get a `image's platform does not match the host platform` error when running the docker commands, enable QEMU support with the following command:
+
+```sh
+docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+```
+and now try running the command again, but this time adding `--platform linux/arm64` after `--rm`. 
+
 ## Make a ZIP
 
 ```sh
