@@ -1,12 +1,24 @@
-# Neverball
+# Primosputt
+### My personal Neverball fork that adds 5-player support and other quality-of-life features to Neverputt.
 
 ![Neverball](https://neverball.org/images/shots/01-neverball-easy/easy-07-01.jpg)
 
-Tilt the  floor to roll a  ball through an obstacle  course within the
-given  time.  If  the  ball falls  or time  expires, a ball is lost.
+(TODO: change this image to a screenshot of the titlescreen)
 
-Collect coins to unlock the exit  and earn extra balls.  Red coins are
-worth 5.  Blue coins are worth 10.  A ball is awarded for 100 coins.
+It was made in about a day mostly just to play with my cousins, so expect bugs and other issues.
+(I didn't change a lot tho, just about ~130 lines, and that's counting with all the color changes and renaming, so it should be fairly stable)
+
+Want to play it? Uhh, then go to doc/install.txt compile it yourself idk. I'm probably not going to make a release anytime soon.
+
+## New features
+
+- You can now use `TAB` to force a penalty (useful if your ball gets stuck in a moving platform)
+- Support for 5 players, of course (if you for some reason need more it should be fairly easy to change)
+- Not really a new feature, but I changed the player and ball colors to my cousins' favourite ones :)
+- Uhh rebranding for some reason, was in the mood for it
+
+---
+# Regular Neverball stuff
 
 ## Release Notes
 
