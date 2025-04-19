@@ -3,12 +3,12 @@
 
 ![Neverball](https://neverball.org/images/shots/01-neverball-easy/easy-07-01.jpg)
 
-(TODO: change this image to a screenshot of the titlescreen)
+##### (TODO: change this image to a screenshot of the titlescreen)
 
 It was made in about a day mostly just to play with my cousins, so expect bugs and other issues.
 (I didn't change a lot tho, just about ~130 lines, and that's counting with all the color changes and renaming, so it should be fairly stable)
 
-If you just want the code for TAB key function to force a penalty check out the `tab` branch.
+If you just want the code for TAB key function to force a penalty check out the `tab` branch. It's based on [this pull request](https://github.com/Neverball/neverball/pull/99).
 
 Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it yourself idk. I'm probably not going to make a release anytime soon.
 
@@ -18,6 +18,10 @@ Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it y
 - Support for 5 players, of course (if you for some reason need more it should be fairly easy to change)
 - Not really a new feature, but I changed the player and ball colors to my cousins' favourite ones :)
 - Uhh rebranding for some reason, was in the mood for it
+
+## Planned features
+
+- Add a button to skip a hole in the pause menu, based on [this pull request](https://github.com/Neverball/neverball/pull/326)
 
 ---
 # Regular Neverball stuff
