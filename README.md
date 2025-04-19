@@ -1,16 +1,16 @@
 # Primosputt
 ### My personal Neverball fork that adds 5-player support and other quality-of-life features to Neverputt.
 
-![Neverball](https://neverball.org/images/shots/01-neverball-easy/easy-07-01.jpg)
-
-##### (TODO: change this image to a screenshot of the titlescreen)
+![Primosputt](https://github.com/user-attachments/assets/7d15b7c6-402f-4ab7-a23d-71a33d3433f9)
 
 It was made in about a day mostly just to play with my cousins, so expect bugs and other issues.
 (I didn't change a lot tho, just about ~130 lines, and that's counting with all the color changes and renaming, so it should be fairly stable)
 
 If you just want the code for TAB key function to force a penalty check out the `tab` branch. It's based on [this pull request](https://github.com/Neverball/neverball/pull/99).
 
-Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it yourself idk. I'm probably not going to make a release anytime soon.
+~Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it yourself idk. I'm probably not going to make a release anytime soon.~
+
+Sike, I decided it was too much trouble to download the source and recompile it every time that I wanted to play in a new computer, so I published a [v1.0 release](https://github.com/MigProPlayer/primosputt/releases/tag/v1.0+1.7.0-alpha.3).
 
 Tip: If you want to compile for Windows, it's best to use the docker container in [doc/alpha.md](doc/alpha.md#build-a-windows-32-bit-build). (I tried cross-compiling for windows and it just gave me headaches.)
 
