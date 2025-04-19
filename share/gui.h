@@ -66,6 +66,8 @@ extern const GLubyte gui_blu[4];
 extern const GLubyte gui_grn[4];
 extern const GLubyte gui_blk[4];
 extern const GLubyte gui_gry[4];
+extern const GLubyte gui_pnk[4];
+extern const GLubyte gui_prp[4];
 
 extern const GLubyte gui_wht2[4];
 

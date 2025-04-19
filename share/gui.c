@@ -45,12 +45,14 @@ const GLubyte gui_blu[4] = { 0x00, 0x00, 0xFF, 0xFF };  /* Blue   */
 const GLubyte gui_blk[4] = { 0x00, 0x00, 0x00, 0xFF };  /* Black  */
 const GLubyte gui_gry[4] = { 0x55, 0x55, 0x55, 0xFF };  /* Gray   */
 const GLubyte gui_shd[4] = { 0x00, 0x00, 0x00, 0x80 };  /* Shadow */
+const GLubyte gui_prp[4] = { 0x7F, 0x00, 0xFF, 0xFF };  /* Purple */
+const GLubyte gui_pnk[4] = { 0xFF, 0x00, 0xFF, 0xFF };  /* Pink   */
 
 const GLubyte gui_wht2[4] = { 0xFF, 0xFF, 0xFF, 0x60 };  /* Transparent white */
 
 /*---------------------------------------------------------------------------*/
 
-#define WIDGET_MAX 256
+#define WIDGET_MAX 512
 
 #define GUI_FREE   0
 #define GUI_HARRAY 1

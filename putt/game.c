@@ -149,12 +149,13 @@ static void game_draw_balls(struct s_rend *rend,
                             const struct s_vary *fp,
                             const float *bill_M, float t)
 {
-    static const GLfloat color[5][4] = {
+    static const GLfloat color[6][4] = {
         { 1.0f, 1.0f, 1.0f, 0.7f },
-        { 1.0f, 0.0f, 0.0f, 1.0f },
-        { 0.0f, 1.0f, 0.0f, 1.0f },
         { 0.0f, 0.0f, 1.0f, 1.0f },
         { 1.0f, 1.0f, 0.0f, 1.0f },
+        { 0.0f, 1.0f, 0.0f, 1.0f },
+        { 0.5f, 0.0f, 1.0f, 1.0f },
+        { 1.0f, 0.3f, 1.0f, 1.0f },
     };
 
     int ui;

@@ -44,7 +44,7 @@
 #include "st_conf.h"
 #include "st_all.h"
 
-const char TITLE[] = "Neverputt";
+const char TITLE[] = "Primosputt";
 const char ICON[] = "icon/neverputt.png";
 
 /*---------------------------------------------------------------------------*/
@@ -313,7 +313,7 @@ int main(int argc, char *argv[])
     opt_parse(argc, argv);
 
     config_paths(opt_data);
-    log_init("Neverputt" VERSION, "neverputt.log");
+    log_init("Primosputt" VERSION, "primosputt.log");
     fs_mkdir("Screenshots");
 
     if (SDL_Init(SDL_INIT_VIDEO) == 0)

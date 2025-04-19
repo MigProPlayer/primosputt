@@ -17,6 +17,7 @@
 #define AUD_PLAYER2 "snd/player2.ogg"
 #define AUD_PLAYER3 "snd/player3.ogg"
 #define AUD_PLAYER4 "snd/player4.ogg"
+#define AUD_PLAYER5 "snd/player5.ogg"
 #define AUD_SWITCH  "snd/switch.ogg"
 #define AUD_SUCCESS "snd/success.ogg"
 

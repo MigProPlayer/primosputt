@@ -31,12 +31,13 @@ static int fps_id;
 
 void hud_init(void)
 {
-    static const GLubyte *color[5] = {
+    static const GLubyte *color[6] = {
         gui_wht,
-        gui_red,
-        gui_grn,
         gui_blu,
-        gui_yel
+        gui_yel,
+        gui_grn,
+        gui_prp,
+        gui_pnk
     };
     int i = curr_player();
 

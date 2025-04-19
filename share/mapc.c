@@ -1585,29 +1585,59 @@ static void make_targ(struct s_base *fp,
     targ_n++;
 }
 
+static void ensure_fifth_player_spawn(struct s_base *fp)
+{
+    // If there are already 5 or more spawns, no need to add another.
+    if (fp->uc >= 5)
+        return;
+
+
+    // Get the last spawn position.
+    struct b_ball *last_ball = &fp->uv[fp->uc - 1];
+
+
+    // Add a new spawn with the same properties as the last one.
+    struct b_ball *new_ball = &fp->uv[fp->uc];
+    new_ball->p[0] = last_ball->p[0]; // Slight offset to avoid overlap
+    new_ball->p[1] = last_ball->p[1];
+    new_ball->p[2] = last_ball->p[2];
+    new_ball->r = last_ball->r;
+
+
+    // Increment the player count.
+    fp->uc++;
+}
+
+
 static void make_ball(struct s_base *fp,
                       char k[][MAXSTR],
                       char v[][MAXSTR], int c)
 {
     int i, ui = incu(fp);
 
+
     struct b_ball *up = fp->uv + ui;
+
 
     up->p[0] = 0.0f;
     up->p[1] = 0.0f;
     up->p[2] = 0.0f;
     up->r    = 0.25f;
 
+
     for (i = 0; i < c; i++)
     {
         if (strcmp(k[i], "radius") == 0)
             sscanf(v[i], "%f", &up->r);
 
+
         if (strcmp(k[i], "origin") == 0)
         {
             float x = 0.f, y = 0.f, z = 0.f;
 
+
             sscanf(v[i], "%f %f %f", &x, &y, &z);
+
 
             up->p[0] = +(x)      / SCALE;
             up->p[1] = +(z - 24) / SCALE;
@@ -1615,7 +1645,12 @@ static void make_ball(struct s_base *fp,
         }
     }
 
+
     up->p[1] += up->r + SMALL;
+
+
+    // After processing all player spawns, ensure at least 5 exist.
+    ensure_fifth_player_spawn(fp);
 }
 
 /*---------------------------------------------------------------------------*/

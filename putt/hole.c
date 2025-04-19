@@ -164,6 +164,7 @@ char *hole_player(int p)
     if (p == 2 && 2 <= party) return _("P2");
     if (p == 3 && 3 <= party) return _("P3");
     if (p == 4 && 4 <= party) return _("P4");
+    if (p == 5 && 5 <= party) return _("P5");
 
     return NULL;
 }
@@ -281,7 +282,7 @@ int hole_goto(int h, int p)
             player = (hole - 1) % party + 1;
             done   = 0;
 
-            for (i = 1; i <= party; i++)
+            for (i = 1; i <= party+1; i++)
             {
                 game_get_pos(ball_p[i], ball_e[i]);
                 stat_v[i] = 0;

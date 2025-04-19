@@ -4,7 +4,7 @@
 /*---------------------------------------------------------------------------*/
 
 #define MAXHOL 28
-#define MAXPLY 5
+#define MAXPLY 6
 
 void  hole_init(const char *);
 void  hole_free(void);
