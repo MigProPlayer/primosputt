@@ -8,6 +8,8 @@
 It was made in about a day mostly just to play with my cousins, so expect bugs and other issues.
 (I didn't change a lot tho, just about ~130 lines, and that's counting with all the color changes and renaming, so it should be fairly stable)
 
+If you just want the code for TAB key function to force a penalty check out the `tab` branch.
+
 Want to play it? Uhh, then go to doc/install.txt compile it yourself idk. I'm probably not going to make a release anytime soon.
 
 ## New features
