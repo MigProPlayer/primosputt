@@ -10,7 +10,7 @@ It was made in about a day mostly just to play with my cousins, so expect bugs a
 
 If you just want the code for TAB key function to force a penalty check out the `tab` branch.
 
-Want to play it? Uhh, then go to doc/install.txt compile it yourself idk. I'm probably not going to make a release anytime soon.
+Want to play it? Uhh, then go to [doc/install.txt](doc/install.txt) compile it yourself idk. I'm probably not going to make a release anytime soon.
 
 ## New features
 
