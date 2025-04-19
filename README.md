@@ -24,6 +24,8 @@ Tip: If you want to compile for Windows, it's best to use the docker container i
 ## Planned features
 
 - Add a button to skip a hole in the pause menu, based on [this pull request](https://github.com/Neverball/neverball/pull/326)
+- Fix wrong version in the main menu
+- Fix the title of the results screen being cut off
 
 ---
 # Regular Neverball stuff
